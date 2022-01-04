@@ -15,6 +15,8 @@ gem "puma", "~> 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+#JWT authentication for devise with configurable token revocation strategies
+gem 'devise-jwt', '~> 0.9.0'
 
 
 # Use Redis adapter to run Action Cable in production
